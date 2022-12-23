@@ -8,6 +8,7 @@ body {
 /*Navigation pour le menu dans l'en-tête*/
 .Nav_MenuEnTete {
         /*Couleurs*/
+        background-color: black;
         /*Padding*/
         /*Marges*/
 
@@ -15,6 +16,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-content: center;
 
         /*Position*/
         position: fixed;
@@ -43,4 +45,19 @@ footer {
         left: 0;
         bottom: 0;
         width: 100%;
+}
+
+.Div_TitreSite {
+        /*Couleurs*/
+       background-image: url('img/Banniere_Site.jpg');
+       border: 1px solid red;
+        height: 1920px;
+        width: 1080x;
+
+        /*Padding*/
+
+        /*Marges*/
+
+        /*Taille*/
+        
 }

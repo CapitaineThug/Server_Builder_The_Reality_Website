@@ -18,13 +18,14 @@
 
         /*Flex*/
         flex: auto;
-        align-self: flex-start;
+        align-self: center;
 }
 
 .Bt_BoutonNavigation:hover {
         background-color: #525252;
         transform: scale(1.05);
 }
+
 /*Bouton de navigation pour l'image*/
 .Bt_ImageNavigation {
         background-color: transparent;
