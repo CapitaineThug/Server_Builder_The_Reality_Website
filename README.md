@@ -1,6 +1,6 @@
-# Model-Personal-Project
+# Server Builder - The Reality
 
-"Server Builder - The reality" est site web parlant d'un jeu vidéo fait par Unreal engine qui consiste à mettre en place ses propres serveurs
+"Server Builder - The Reality" est site web parlant d'un jeu vidéo fait par Unreal engine qui consiste à mettre en place ses propres serveurs
 
 ## Pourquoi ce thème ?
 
