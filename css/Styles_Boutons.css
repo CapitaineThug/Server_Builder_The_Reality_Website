@@ -1,4 +1,25 @@
-body {
-  background-color: white;
-  color:red;
+.Bt_BoutonNavigation {
+        /*Couleurs*/
+        color: white;
+        background-color: #444444;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Padding*/
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        /*Marges*/
+        margin-left: 10px;
+        margin-right: 10px;
+
+        /*Flex*/
+        flex: auto;
+}
+
+.Bt_BoutonNavigation:hover {
+        background-color: #525252;
+        transform: scale(1.05);
 }
