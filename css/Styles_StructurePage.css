@@ -1,14 +1,46 @@
+/*Corp de page pour toutes les pages*/
 body {
         /*Couleurs*/
         background-color: black;
+        color: white;
 }
 
+/*Navigation pour le menu dans l'en-tête*/
 .Nav_MenuEnTete {
         /*Couleurs*/
         /*Padding*/
         /*Marges*/
+
         /*Flex*/
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        /*Position*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+}
+
+/*pied de page de toutes les pages*/
+footer {
+        /*Couleurs*/
+        background-color: #444444;
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Flex*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        /*Position*/
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
 }

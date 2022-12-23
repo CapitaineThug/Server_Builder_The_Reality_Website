@@ -1,3 +1,4 @@
+/*Bouton de navigaiton simple*/
 .Bt_BoutonNavigation {
         /*Couleurs*/
         color: white;
@@ -17,9 +18,19 @@
 
         /*Flex*/
         flex: auto;
+        align-self: flex-start;
 }
 
 .Bt_BoutonNavigation:hover {
         background-color: #525252;
+        transform: scale(1.05);
+}
+/*Bouton de navigation pour l'image*/
+.Bt_ImageNavigation {
+        background-color: transparent;
+
+}
+
+.Bt_ImageNavigation:hover {
         transform: scale(1.05);
 }

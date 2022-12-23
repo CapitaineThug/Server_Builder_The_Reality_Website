@@ -1,0 +1,10 @@
+/*Image dans la navigation*/
+.Img_ImageNavigation {
+
+        /*Flex*/
+        flex: auto;
+
+        /*Taille*/
+        width: 64px;
+        height: 64px,
+}

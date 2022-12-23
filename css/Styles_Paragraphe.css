@@ -1,0 +1,11 @@
+.P_AligneDroite {
+        /*Texte*/
+        text-align: right;
+
+        /*Flex*/
+        flex: auto;
+
+        /*Padding*/
+        padding-left: 5px;
+        padding-right: 5px;
+}
