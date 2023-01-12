@@ -28,7 +28,7 @@ body {
 /*pied de page de toutes les pages*/
 footer {
         /*Couleurs*/
-        background-color: #444444;
+        background-color: #1d2a47;
         color: white;
 
         /*Bordures*/
@@ -45,19 +45,4 @@ footer {
         left: 0;
         bottom: 0;
         width: 100%;
-}
-
-.Div_TitreSite {
-        /*Couleurs*/
-       background-image: url('img/Banniere_Site.jpg');
-       border: 1px solid red;
-        height: 1920px;
-        width: 1080x;
-
-        /*Padding*/
-
-        /*Marges*/
-
-        /*Taille*/
-        
 }
