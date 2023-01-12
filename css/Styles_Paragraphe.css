@@ -1,9 +1,7 @@
-
-
 .P_AligneDroite {
         /*Texte*/
         text-align: right;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
         /*Flex*/
         flex: auto;
@@ -18,7 +16,7 @@
         text-align: center;
         font-size: 60px;
         font-weight: bold;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
         /*Padding*/
@@ -33,14 +31,7 @@
         text-align: center;
         font-size: 25px;
         font-weight: bold;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-        /*Padding*/
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Txt_Android {
@@ -49,13 +40,31 @@
 
 }
 
-.Txt_Windows{
+.Txt_Windows {
         /*Texte*/
-        color:#381abf;
+        color: #381abf;
 }
 
 p {
         /*Texte*/
         font-size: 16px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Li_TitreSectionListe {
+        /*Texte*/
+        text-decoration: underline;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+        /*Texte*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.P_CorpArticle {
+        /*Texte*/
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
 }

@@ -47,13 +47,32 @@ footer {
         width: 100%;
 }
 
-.Div_TitrePage {
+.Div_TitrePageMenu {
         /*Couleurs*/
         background-color: rgba(5, 8, 70, 0.541);
-        background-image: url("img/Banniere_Site.jpg");
+        background-image: url("../img/Banniere_Site.jpg");
         color: white;
 
         /*Bordures*/
         border-width: 0px;
         border-radius: 10px;
+
+        /*Padding*/
+        Padding-top: 25px;
+        padding-bottom: 25px;
+}
+
+.Div_TitrePageButDuJeu {
+        /*Couleurs*/
+        background-color: rgba(5, 8, 70, 0.541);
+        background-image: url("../img/But_Du_Jeu.jpg");
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Padding*/
+        Padding-top: 25px;
+        padding-bottom: 25px;
 }
