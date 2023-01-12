@@ -1,0 +1,10 @@
+.Div_BoitePrincipale {
+    /*Couleurs*/
+    background-color: #232323;
+    background-image: url(/img/Banniere_Site.jpg);
+    color: white;
+
+    /*Bordures*/
+    border-width: 0px;
+    border-radius: 10px;
+}

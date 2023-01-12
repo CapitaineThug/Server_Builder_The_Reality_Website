@@ -46,3 +46,14 @@ footer {
         bottom: 0;
         width: 100%;
 }
+
+.Div_TitrePage {
+        /*Couleurs*/
+        background-color: rgba(5, 8, 70, 0.541);
+        background-image: url(/img/Banniere_Site.jpg);
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+}
