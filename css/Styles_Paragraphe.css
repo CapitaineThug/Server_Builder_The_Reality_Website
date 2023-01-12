@@ -67,4 +67,19 @@ li {
         font-size: 16px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
+
+        /*Margin*/
+        margin-top: 35px;
+        margin-bottom: 35px;
+}
+
+.P_PostIt {
+        /*Texte*/
+        font-size: 9px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: centert;
+
+        /*Margin*/
+        margin-top: 50px;
+
 }

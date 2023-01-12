@@ -2,7 +2,7 @@
 .Bt_BoutonNavigation {
         /*Couleurs*/
         color: white;
-        background-color: #1d2a47;
+        background-color:  #171f5d95;
 
         /*Bordures*/
         border-width: 0px;
@@ -22,7 +22,7 @@
 }
 
 .Bt_BoutonNavigation:hover {
-        background-color: #26375c;
+        background-color:  #171f5dbc;
         transform: scale(1.05);
 }
 
