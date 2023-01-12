@@ -1,6 +1,9 @@
+
+
 .P_AligneDroite {
         /*Texte*/
         text-align: right;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
         /*Flex*/
         flex: auto;
@@ -15,6 +18,7 @@
         text-align: center;
         font-size: 60px;
         font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
         /*Padding*/
@@ -22,4 +26,36 @@
         padding-right: 5px;
         padding-top: 16px;
         padding-bottom: 16px;
+}
+
+.P_TitreArticle {
+        /*Texte*/
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        /*Padding*/
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+}
+
+.Txt_Android {
+        /*Texte*/
+        color: #0a802b;
+
+}
+
+.Txt_Windows{
+        /*Texte*/
+        color:#381abf;
+}
+
+p {
+        /*Texte*/
+        font-size: 16px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

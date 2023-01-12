@@ -1,10 +1,65 @@
 .Div_BoitePrincipale {
     /*Couleurs*/
-    background-color: #232323;
-    background-image: url(/img/Banniere_Site.jpg);
+    background-color: #070810;
     color: white;
 
     /*Bordures*/
     border-width: 0px;
+    border-radius: 10px;
+
+    /*Flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Div_BoiteInformations {
+    /*Colors*/
+    background-color: #232323;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+
+    /*Flex*/
+    flex: 70%;
+}
+
+.Div_BoiteNotes {
+    /*Colors*/
+    background-color: #232323;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+
+    /*Flex*/
+    flex: 30%;
+}
+
+.Div_ContenuArticle {
+    /*Colors*/
+    background-color: #444444;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-width: 1px;
+    border-color: #000000;
     border-radius: 10px;
 }
