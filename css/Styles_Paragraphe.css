@@ -28,7 +28,7 @@
 
 .P_TitreArticle {
         /*Texte*/
-        text-align: center;
+        text-align: left;
         font-size: 25px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,7 +51,7 @@ p {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Li_TitreSectionListe {
+.P_TitreSectionListe {
         /*Texte*/
         text-decoration: underline;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -66,20 +66,79 @@ li {
         /*Texte*/
         font-size: 16px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
+        text-align: left;
 
         /*Margin*/
         margin-top: 35px;
         margin-bottom: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
 }
 
 .P_PostIt {
         /*Texte*/
         font-size: 9px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: centert;
+        text-align: center;
 
         /*Margin*/
         margin-top: 50px;
+
+}
+
+.Li_CanevasSousListe {
+        /*Display*/
+        list-style-type: none;
+}
+
+.Li_TitreSectionListe {
+        /*Texte*/
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+        color: rgb(246, 0, 189);
+}
+
+.P_TitreMiseAJour {
+        /*Texte*/
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+
+        /*Color*/
+        background-color: #160c3f;
+
+        /*Margin*/
+        margin: 5px;
+
+        /*Padding*/
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        /*Border*/
+        border-radius: 10px;
+
+
+}
+
+.P_TitreDerniereMiseAJour {
+        /*Texte*/
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+
+        /*Color*/
+        background-color: #0c253f;
+
+        /*Margin*/
+        margin: 5px;
+
+        /*Padding*/
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        /*Border*/
+        border-radius: 10px;
+
 
 }

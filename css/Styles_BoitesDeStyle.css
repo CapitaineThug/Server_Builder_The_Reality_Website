@@ -29,6 +29,9 @@
 
     /*Flex*/
     flex: 70%;
+
+    /*Position*/
+    height: 100%;
 }
 
 .Div_BoiteNotes {
@@ -46,6 +49,9 @@
 
     /*Flex*/
     flex: 30%;
+
+    /*Position*/
+    height: 100%;
 }
 
 .Div_ContenuArticle {
@@ -64,18 +70,36 @@
     border-radius: 10px;
 }
 
-.Div_BoiteTexte{
-        /*Colors*/
-        background-color: #171f5d95;
+.Div_BoiteTexte {
+    /*Colors*/
+    background-color: #171f5d;
 
-        /*Padding*/
-        padding: 10px;
-    
-        /*Margin*/
-        margin: 10px;
-    
-        /*Border*/
-        border-radius: 10px;
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+}
+
+.Div_BoiteTexteJustifieContenu {
+    /*Colors*/
+    background-color: #171f5d;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+
+    /*Width*/
+    width: auto;
+    display: inline-block;
 }
 
 .Div_BoiteArticleFullPage {
@@ -90,4 +114,98 @@
 
     /*Border*/
     border-radius: 10px;
+}
+
+.Div_BoiteTitreArticle {
+    /*Colors*/
+    background-color: #171f5d;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+    margin-top: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+}
+
+.Div_BoiteEncadrantArticle {
+    /*Couleurs*/
+    background-color: #0d0f1e;
+    color: white;
+
+    /*Bordures*/
+    border-width: 0px;
+    border-radius: 10px;
+
+    /*Padding*/
+    padding: 5px;
+    margin: 10px;
+}
+
+.Div_TabeauMiseAJour {
+    /*Couleurs*/
+    background-color: #101a28;
+    color: white;
+
+    /*Bordures*/
+    border-width: 0px;
+    border-radius: 10px;
+
+    /*Padding*/
+    padding: 5px;
+    margin: 10px;
+
+    /*Flex*/
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Div_BoiteContenuMiseAJour {
+    /*Colors*/
+    background-color: #5d174566;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+}
+
+.Div_BoiteContenuDerniereMiseAJour {
+    /*Colors*/
+    background-color: rgba(23, 72, 93, 0.4);
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+}
+
+.Div_BoiteEncadrantMiseAJour {
+    /*Couleurs*/
+    background-color: #0d0f1e;
+    color: white;
+
+    /*Bordures*/
+    border-width: 0px;
+    border-radius: 10px;
+
+    /*Padding*/
+    padding: 5px;
+    margin: 10px;
+
+    /*Flex*/
+    flex: 40%;
 }

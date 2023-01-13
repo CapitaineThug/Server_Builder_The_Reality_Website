@@ -27,13 +27,20 @@
                 <!--Menu de navigation-->
                 <nav class="Nav_MenuEnTete">
                         <!--Item (bouton) du menu de navigation-->
-                        <button class="Bt_ImageNavigation" onclick="window.location.href='index.html';"><img class="Img_ImageNavigation"
-                                        src="img/Site_Icon.png" /></button>
-                        <button class="Bt_BoutonNavigation" onclick="window.location.href='ButDuJeu.html';">But du jeu</button>
-                        <button class="Bt_BoutonNavigation" onclick="window.location.href='Resultat.html';">Résultat</button>
-                        <button class="Bt_BoutonNavigation" onclick="window.location.href='Prochaine_Mise_A_Jour.html';">Prochaine mise jour</button>
-                        <button class="Bt_BoutonNavigation" onclick="window.location.href='Telecharger.html';">Télécharger</button>
-                        <button class="Bt_BoutonNavigation" onclick="window.location.href='Unreal_Engine_5.html';">Unreal Engine 5</button>
+                        <button class="Bt_ImageNavigation" onclick="window.location.href='index.html';"><img
+                                        class="Img_ImageNavigation" src="img/Site_Icon.png"
+                                        alt="Navigation au menu" /></button>
+                        <button class="Bt_BoutonNavigation" onclick="window.location.href='ButDuJeu.html';">But du
+                                jeu</button>
+                        <button class="Bt_BoutonNavigation"
+                                onclick="window.location.href='Resultat.html';">Résultat</button>
+                        <button class="Bt_BoutonNavigation"
+                                onclick="window.location.href='Prochaine_Mise_A_Jour.html';">Prochaine mise
+                                jour</button>
+                        <button class="Bt_BoutonNavigation"
+                                onclick="window.location.href='Telecharger.html';">Télécharger</button>
+                        <button class="Bt_BoutonNavigation"
+                                onclick="window.location.href='Unreal_Engine_5.html';">Unreal Engine 5</button>
 
                 </nav>
 
@@ -57,20 +64,24 @@
                         <p class="P_TitreArticle">Informations globales</p>
 
                         <!--Division pour le contenu de l'article de l'information globale-->
-                        <div class="Div_ContenuArticle">
+                        <div class="Div_BoiteEncadrantArticle">
                                 <!--Article en personne :)-->
                                 <p>
                                         Ce site web va parler de la création du jeu vidéo "Server Builder", un jeu qui a
                                         été créé par Nicolas Schmid sur Unreal Engine 5. Quelques informations:
                                 </p>
                                 <div class="Div_BoiteTexte">
-                                        <li>Date de création : A REMPLIRE</li>
-                                        <li>Editeur : Unreal engine 5.1.0</li>
-                                        <li>Plateforme supportée acutuellement: <span class="Txt_Android">Android</span>
-                                                / <span class="Txt_Windows">Windows 8 / 10</span></li>
-                                        <li>Source des modèles 3D : Nicolas Schmid</li>
-                                        <li>Source des sons : Nicolas Schmid</li>
-                                        <li>Disponible sur Itch.io</li>
+                                        <!--Liste pour les informations globales-->
+                                        <ul>
+                                                <li>Date de création : A REMPLIRE</li>
+                                                <li>Editeur : Unreal engine 5.1.0</li>
+                                                <li>Plateforme supportée acutuellement: <span
+                                                                class="Txt_Android">Android</span>
+                                                        / <span class="Txt_Windows">Windows 8 / 10</span></li>
+                                                <li>Source des modèles 3D : Nicolas Schmid</li>
+                                                <li>Source des sons : Nicolas Schmid</li>
+                                                <li>Disponible sur Itch.io</li>
+                                        </ul>
                                 </div>
 
 
@@ -83,7 +94,7 @@
                         <p class="P_TitreArticle">Dernière mise à jour</p>
 
                         <!--Division pour le contenu de l'article V.Pre-realease 19-->
-                        <div class="Div_ContenuArticle">
+                        <div class="Div_BoiteEncadrantArticle">
 
                                 <!--Version de la mise à jour-->
                                 <p>V.Pre-release 19</p>
@@ -103,26 +114,36 @@
                                         <ul>
                                                 <li class="Li_TitreSectionListe">Nouveau</li>
                                                 <!--Items rajoutés à la nouvelle version-->
-                                                <ul>
-                                                        <li>Rajout de nouveaux serveurs</li>
-                                                        <li>Rajout de lumières</li>
-                                                </ul>
+
+                                                <li class="Li_CanevasSousListe">
+                                                        <ul>
+                                                                <li>Rajout de nouveaux serveurs</li>
+                                                                <li>Rajout de lumières</li>
+                                                        </ul>
+                                                </li>
+
                                                 <li class="Li_TitreSectionListe">Bug</li>
                                                 <!--Bugs résolus dans la nouvelle version-->
-                                                <ul>
-                                                        <li>Résolution de la téléportation de la vitre de l'armoire lors
-                                                                de l'animation d'ouverture</li>
-                                                        <li>Résolution du sons des seveurs trop faible</li>
-                                                </ul>
+
+                                                <li class="Li_CanevasSousListe">
+                                                        <ul>
+                                                                <li>Résolution de la téléportation de la vitre
+                                                                        de
+                                                                        l'armoire lors
+                                                                        de l'animation d'ouverture</li>
+                                                                <li>Résolution du sons des seveurs trop faible
+                                                                </li>
+                                                        </ul>
+                                                </li>
                                         </ul>
                                 </div>
 
                         </div>
                         <!--Division pour le contenu de l'article V.Pre-realease 19-->
-                        <div class="Div_ContenuArticle">
+                        <div class="Div_BoiteEncadrantArticle">
 
                                 <!--Version de la mise à jour-->
-                                <p>V.Pre-release 18</p>
+                                <p class="P_CorpArticle">V.Pre-release 18</p>
 
                                 <!--Informations sur la version-->
                                 <div class="Div_BoiteTexte">
@@ -138,17 +159,26 @@
                                         <ul>
                                                 <li class="Li_TitreSectionListe">Nouveau</li>
                                                 <!--Items rajoutés à la nouvelle version-->
-                                                <ul>
-                                                        <li>Rajout animations sur ventilateurs des GPU du serveur</li>
-                                                        <li>Rajout des structures métalliques au plafond</li>
-                                                </ul>
+                                                <li class="Li_CanevasSousListe">
+                                                        <ul>
+                                                                <li>Rajout animations sur ventilateurs des GPU du
+                                                                        serveur</li>
+                                                                <li>Rajout des structures métalliques au plafond</li>
+                                                        </ul>
+                                                </li>
+
+
                                                 <li class="Li_TitreSectionListe">Bug</li>
                                                 <!--Bugs résolus dans la nouvelle version-->
-                                                <ul>
-                                                        <li>Résolu lumière du serveur non-allumée au démarrage</li>
-                                                        <li>Résolution d'un crash avec un résolution d'écran suppérieure
-                                                                à 2400px en hauteur</li>
-                                                </ul>
+                                                <li class="Li_CanevasSousListe">
+                                                        <ul>
+                                                                <li>Résolu lumière du serveur non-allumée au démarrage
+                                                                </li>
+                                                                <li>Résolution d'un crash avec un résolution d'écran
+                                                                        suppérieure
+                                                                        à 2400px en hauteur</li>
+                                                        </ul>
+                                                </li>
                                         </ul>
                                 </div>
 
@@ -156,11 +186,16 @@
                 </div>
 
 
-                <!--Pied de page avec le infos sur moihaha-->
-                <footer>
-                        <p class="P_AligneDroite">Développé par Nicolas Schmid</p>
-                        <p class="P_AligneDroite">mise à jour le 12.01.2023</p>
-                </footer>
+        </div>
+
+        <!--Séparateur de la taille du pied de page-->
+        <div style="margin-bottom: 75px"></div>
+
+        <!--Pied de page avec le infos sur moihaha-->
+        <footer>
+                <p class="P_AligneDroite">Développé par Nicolas Schmid</p>
+                <p class="P_AligneDroite">mise à jour le 13.01.2023</p>
+        </footer>
 
 </body>
 
