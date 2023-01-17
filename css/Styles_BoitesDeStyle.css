@@ -91,7 +91,7 @@
     border-radius: 10px;
 }
 
-.Div_TabeauMiseAJour {
+.Div_TableauMiseAJour {
     /*Couleurs*/
     background-color: #101a28;
     color: white;
@@ -111,9 +111,63 @@
     flex-direction: row;
 }
 
+.Div_TableauTelechargement {
+    /*Couleurs*/
+    background-color: #101a28;
+    color: white;
+
+    /*Bordures*/
+    border-width: 0px;
+    border-radius: 10px;
+
+    /*Padding*/
+    padding: 5px;
+    margin: 10px;
+
+    /*Flex*/
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .Div_BoiteContenuMiseAJour {
     /*Colors*/
     background-color: #5d174566;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+}
+
+.Div_SimpleFlex {
+    /*Flex*/
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Div_TelechargerAndroid {
+    /*Colors*/
+    background-color: #013220;
+
+    /*Padding*/
+    padding: 10px;
+
+    /*Margin*/
+    margin: 10px;
+
+    /*Border*/
+    border-radius: 10px;
+}
+
+.Div_TelechargerWindows {
+    /*Colors*/
+    background-color: #2A6A9E;
 
     /*Padding*/
     padding: 10px;

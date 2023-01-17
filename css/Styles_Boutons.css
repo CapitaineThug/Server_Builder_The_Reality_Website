@@ -2,7 +2,7 @@
 .Bt_BoutonNavigation {
         /*Couleurs*/
         color: white;
-        background-color:  #171f5d95;
+        background-color: #171f5d95;
 
         /*Bordures*/
         border-width: 0px;
@@ -22,7 +22,7 @@
 }
 
 .Bt_BoutonNavigation:hover {
-        background-color:  #171f5dbc;
+        background-color: #171f5dbc;
         transform: scale(1.05);
 }
 
@@ -34,4 +34,53 @@
 
 .Bt_ImageNavigation:hover {
         transform: scale(1.05);
+}
+
+.Bt_Telecharger {
+        /*Text*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: normal;
+
+        /*Color*/
+        background: linear-gradient(to right, #17225dd3, #30175d95);
+        color: white;
+
+        /*Border*/
+        border-width: 0px;
+        border-color: transparent;
+        border-radius: 10px;
+
+        /*Padding*/
+        padding: 15px;
+
+        /*Margin*/
+        margin: 5px;
+
+        /*Animation*/
+        transition: all .5s ease;
+
+
+
+}
+
+.Bt_Telecharger:hover {
+        /*Color*/
+        background: linear-gradient(to right, #30175dd3, #4d175d95);
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+
+        /*Border*/
+        border-width: 1px;
+        border-color: #4d175d95;
+
+        border-radius: 15px;
+
+        /*Padding*/
+        padding: 16px;
+
+        /*Shadow*/
+        box-shadow: rgba(0, 0, 0, 0.199) 2px 2px 5px 5px;
+
+        /*Animation*/
+        transition: 500ms;
 }

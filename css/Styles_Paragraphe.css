@@ -132,6 +132,8 @@ li {
         /*Padding*/
         padding-top: 5px;
         padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
 
         /*Border*/
         border-radius: 10px;
@@ -175,4 +177,25 @@ li {
 
         /*Size*/
         width: fit-content;
+}
+
+.P_TailleFichier {
+        /*Color*/
+        background-color: #5d172e;
+
+        /*Margin*/
+        margin: 5px;
+
+        /*Padding*/
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        /*Border*/
+        border-radius: 10px;
+
+        /*Taille*/
+        width: fit-content;
+
 }

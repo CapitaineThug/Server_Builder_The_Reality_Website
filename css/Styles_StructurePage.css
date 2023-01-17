@@ -110,6 +110,28 @@ footer {
         background-repeat: repeat;
 }
 
+.Div_TitrePageTelecharger {
+        /*Couleurs*/
+        background-color: rgba(5, 8, 70, 0.541);
+        background-image: url("../img/Telecharger.png");
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Padding*/
+        Padding-top: 25px;
+        padding-bottom: 25px;
+
+        /*Position*/
+        min-height: 100%;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 100%;
+        background-repeat: repeat;
+}
+
 .Art_70_prc {
         /*Couleurs*/
         background-color: #0d0f1e;
