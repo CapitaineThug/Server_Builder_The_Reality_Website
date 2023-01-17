@@ -35,8 +35,7 @@
                         <button class="Bt_BoutonNavigation"
                                 onclick="window.location.href='Resultat.html';">Résultat</button>
                         <button class="Bt_BoutonNavigation"
-                                onclick="window.location.href='Prochaine_Mise_A_Jour.html';">Prochaine mise
-                                jour</button>
+                                onclick="window.location.href='Prochaine_Mise_A_Jour.html';">Archives</button>
                         <button class="Bt_BoutonNavigation"
                                 onclick="window.location.href='Telecharger.html';">Télécharger</button>
                         <button class="Bt_BoutonNavigation"
@@ -59,18 +58,23 @@
         <div class="Div_BoitePrincipale">
 
                 <!--Division pour les informations globales-->
-                <div class="Div_BoiteInformations">
-                        <!--Titre des informations globales-->
-                        <p class="P_TitreArticle">Informations globales</p>
+                <article class="Art_70_prc">
+                        <!--Division du titre de l'article-->
+                        <div class="Div_BoiteTitreArticle">
+
+                                <!--Titre de l'article Informations globales-->
+                                <p class="P_TitreArticle">Informations globales</p>
+
+                        </div>
 
                         <!--Division pour le contenu de l'article de l'information globale-->
-                        <div class="Div_BoiteEncadrantArticle">
+                        <div class="Div_BoiteArticleFullPage">
                                 <!--Article en personne :)-->
                                 <p>
                                         Ce site web va parler de la création du jeu vidéo "Server Builder", un jeu qui a
                                         été créé par Nicolas Schmid sur Unreal Engine 5. Quelques informations:
                                 </p>
-                                <div class="Div_BoiteTexte">
+                                <div class="Div_BoiteTexteJustifieContenu">
                                         <!--Liste pour les informations globales-->
                                         <ul>
                                                 <li>Date de création : A REMPLIRE</li>
@@ -86,106 +90,36 @@
 
 
                         </div>
-                </div>
+                </article>
 
                 <!--Division pour les notes de mise à jour-->
-                <div class="Div_BoiteNotes">
-                        <!--Titre des notes de mise à jour-->
-                        <p class="P_TitreArticle">Dernière mise à jour</p>
+                <article class="Art_30_prc">
+                        <div class="Div_BoiteTitreArticle">
 
-                        <!--Division pour le contenu de l'article V.Pre-realease 19-->
-                        <div class="Div_BoiteEncadrantArticle">
-
-                                <!--Version de la mise à jour-->
-                                <p>V.Pre-release 19</p>
-
-                                <!--Informations sur la version-->
-                                <div class="Div_BoiteTexte">
-                                        <p>Date de sortie : 20.12.2022</p>
-                                        <p>Plateforme supportée: <span class="Txt_Android">Android</span> / <span
-                                                        class="Txt_Windows">Windows 8 / 10</span></p>
-                                </div>
-
-                                <!--Indicateur de la note de version-->
-                                <p>Note de version :</p>
-
-                                <!--Mise à jour rajoutées dans la nouvelle version-->
-                                <div class="Div_BoiteTexte">
-                                        <ul>
-                                                <li class="Li_TitreSectionListe">Nouveau</li>
-                                                <!--Items rajoutés à la nouvelle version-->
-
-                                                <li class="Li_CanevasSousListe">
-                                                        <ul>
-                                                                <li>Rajout de nouveaux serveurs</li>
-                                                                <li>Rajout de lumières</li>
-                                                        </ul>
-                                                </li>
-
-                                                <li class="Li_TitreSectionListe">Bug</li>
-                                                <!--Bugs résolus dans la nouvelle version-->
-
-                                                <li class="Li_CanevasSousListe">
-                                                        <ul>
-                                                                <li>Résolution de la téléportation de la vitre
-                                                                        de
-                                                                        l'armoire lors
-                                                                        de l'animation d'ouverture</li>
-                                                                <li>Résolution du sons des seveurs trop faible
-                                                                </li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                                </div>
+                                <!--Titre de l'article prochaine mise à jour-->
+                                <p class="P_TitreArticle">Prochaine mise à jour</p>
 
                         </div>
-                        <!--Division pour le contenu de l'article V.Pre-realease 19-->
-                        <div class="Div_BoiteEncadrantArticle">
 
-                                <!--Version de la mise à jour-->
-                                <p class="P_CorpArticle">V.Pre-release 18</p>
+                        <!--Mise à jour V.Pre-release 20-->
+                        <article class="Div_BoiteArticleFullPage">
 
-                                <!--Informations sur la version-->
-                                <div class="Div_BoiteTexte">
-                                        <p>Date de sortie : 5.12.2022</p>
-                                        <p>Plateforme supportée: <span class="Txt_Android">Android</span></p>
+                                <!--Nom de la mise à jour-->
+                                <p class="P_TitreMiseAJour">V.Pre-release 20</p>
+
+                                <!--Informations sur la mise à jour-->
+                                <div class="Div_BoiteContenuMiseAJour">
+
+                                        <p>Date aproximative : XX.[MOIS].XXXX</p>
+                                        <p>Fonctionnalités ajoutées:</p>
+                                        <p>Plateforme(s) supportée(s) : </p>
+                                        <p>Commentaire du développeur : hehe</p>
+
                                 </div>
-
-                                <!--Indicateur de la note de version-->
-                                <p>Note de version :</p>
-
-                                <!--Mise à jour rajoutées dans la nouvelle version-->
-                                <div class="Div_BoiteTexte">
-                                        <ul>
-                                                <li class="Li_TitreSectionListe">Nouveau</li>
-                                                <!--Items rajoutés à la nouvelle version-->
-                                                <li class="Li_CanevasSousListe">
-                                                        <ul>
-                                                                <li>Rajout animations sur ventilateurs des GPU du
-                                                                        serveur</li>
-                                                                <li>Rajout des structures métalliques au plafond</li>
-                                                        </ul>
-                                                </li>
+                        </article>
 
 
-                                                <li class="Li_TitreSectionListe">Bug</li>
-                                                <!--Bugs résolus dans la nouvelle version-->
-                                                <li class="Li_CanevasSousListe">
-                                                        <ul>
-                                                                <li>Résolu lumière du serveur non-allumée au démarrage
-                                                                </li>
-                                                                <li>Résolution d'un crash avec un résolution d'écran
-                                                                        suppérieure
-                                                                        à 2400px en hauteur</li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                                </div>
-
-                        </div>
-                </div>
-
-
+                </article>
         </div>
 
         <!--Séparateur de la taille du pied de page-->
@@ -194,7 +128,7 @@
         <!--Pied de page avec le infos sur moihaha-->
         <footer>
                 <p class="P_AligneDroite">Développé par Nicolas Schmid</p>
-                <p class="P_AligneDroite">mise à jour le 13.01.2023</p>
+                <p class="P_AligneDroite">mise à jour le 17.01.2023</p>
         </footer>
 
 </body>

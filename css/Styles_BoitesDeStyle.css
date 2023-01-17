@@ -1,6 +1,6 @@
 .Div_BoitePrincipale {
     /*Couleurs*/
-    background-color: #070810;
+    background-color: transparent;
     color: white;
 
     /*Bordures*/
@@ -12,46 +12,6 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-}
-
-.Div_BoiteInformations {
-    /*Colors*/
-    background-color: #232323;
-
-    /*Padding*/
-    padding: 10px;
-
-    /*Margin*/
-    margin: 10px;
-
-    /*Border*/
-    border-radius: 10px;
-
-    /*Flex*/
-    flex: 70%;
-
-    /*Position*/
-    height: 100%;
-}
-
-.Div_BoiteNotes {
-    /*Colors*/
-    background-color: #232323;
-
-    /*Padding*/
-    padding: 10px;
-
-    /*Margin*/
-    margin: 10px;
-
-    /*Border*/
-    border-radius: 10px;
-
-    /*Flex*/
-    flex: 30%;
-
-    /*Position*/
-    height: 100%;
 }
 
 .Div_ContenuArticle {
@@ -104,7 +64,7 @@
 
 .Div_BoiteArticleFullPage {
     /*Colors*/
-    background-color: #232323;
+    background-color: #101a28;
 
     /*Padding*/
     padding: 10px;
@@ -131,20 +91,6 @@
     border-radius: 10px;
 }
 
-.Div_BoiteEncadrantArticle {
-    /*Couleurs*/
-    background-color: #0d0f1e;
-    color: white;
-
-    /*Bordures*/
-    border-width: 0px;
-    border-radius: 10px;
-
-    /*Padding*/
-    padding: 5px;
-    margin: 10px;
-}
-
 .Div_TabeauMiseAJour {
     /*Couleurs*/
     background-color: #101a28;
@@ -161,7 +107,7 @@
     /*Flex*/
     display: flex;
     align-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 
@@ -177,35 +123,4 @@
 
     /*Border*/
     border-radius: 10px;
-}
-
-.Div_BoiteContenuDerniereMiseAJour {
-    /*Colors*/
-    background-color: rgba(23, 72, 93, 0.4);
-
-    /*Padding*/
-    padding: 10px;
-
-    /*Margin*/
-    margin: 10px;
-
-    /*Border*/
-    border-radius: 10px;
-}
-
-.Div_BoiteEncadrantMiseAJour {
-    /*Couleurs*/
-    background-color: #0d0f1e;
-    color: white;
-
-    /*Bordures*/
-    border-width: 0px;
-    border-radius: 10px;
-
-    /*Padding*/
-    padding: 5px;
-    margin: 10px;
-
-    /*Flex*/
-    flex: 40%;
 }

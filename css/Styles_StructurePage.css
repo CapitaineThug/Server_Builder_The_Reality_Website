@@ -109,3 +109,62 @@ footer {
         background-size: 100%;
         background-repeat: repeat;
 }
+
+.Art_70_prc {
+        /*Couleurs*/
+        background-color: #0d0f1e;
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Padding*/
+        padding: 5px;
+        margin: 10px;
+
+        /*Flex*/
+        flex: 70%;
+
+        /*Position*/
+        height: 100%;
+}
+
+.Art_30_prc {
+        /*Couleurs*/
+        background-color: #0d0f1e;
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Padding*/
+        padding: 5px;
+        margin: 10px;
+
+        /*Flex*/
+        flex: 30%;
+
+        /*Position*/
+        height: 100%;
+}
+
+article {
+        /*Couleurs*/
+        background-color: #0d0f1e;
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Padding*/
+        padding: 5px;
+        margin: 10px;
+}
+
+.Art_MiseAJour {
+        /*Taille*/
+        max-width:40%;
+}

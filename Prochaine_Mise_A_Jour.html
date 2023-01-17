@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
 
     <!--Titre de la page-->
-    <title>Server Builder - Prochaine mise à jour</title>
+    <title>Server Builder - Archives</title>
 
     <!--Liens aux documents requis-->
     <link rel="stylesheet" href="css/Styles_BoitesDeStyle.css" />
@@ -29,8 +29,8 @@
                     class="Img_ImageNavigation" src="img/Site_Icon.png" alt="Menu principal" /></button>
             <button class="Bt_BoutonNavigation" onclick="window.location.href='ButDuJeu.html';">But du jeu</button>
             <button class="Bt_BoutonNavigation" onclick="window.location.href='Resultat.html';">Résultat</button>
-            <button class="Bt_BoutonNavigation" onclick="window.location.href='Prochaine_Mise_A_Jour.html';">Prochaine
-                mise jour</button>
+            <button class="Bt_BoutonNavigation"
+                onclick="window.location.href='Prochaine_Mise_A_Jour.html';">Archives</button>
             <button class="Bt_BoutonNavigation" onclick="window.location.href='Telecharger.html';">Télécharger</button>
             <button class="Bt_BoutonNavigation" onclick="window.location.href='Unreal_Engine_5.html';">Unreal Engine
                 5</button>
@@ -44,7 +44,7 @@
 
     <!--Titre du dite WEB avec l'image en arrière-plan-->
     <div class="Div_TitreMiseAJour">
-        <p class="P_TitrePage">Server Builder - Prochaine mise à jour</p>
+        <p class="P_TitrePage">Server Builder - Archives</p>
 
     </div>
 
@@ -52,10 +52,10 @@
     <div class="Div_BoitePrincipale">
 
         <!--Boite pour l'article de la définition-->
-        <div class="Div_BoiteEncadrantArticle">
+        <article class="Art_70_prc">
 
 
-            <!--Boite pour le titre de la définition-->
+            <!--Boite pour le titre de la définition de planning de mise à jour-->
             <div class="Div_BoiteTitreArticle">
 
                 <p class="P_TitreArticle">Planning de mise à jour</p>
@@ -74,23 +74,60 @@
                     l'article de la version prévue.</p>
 
             </div>
-        </div>
+        </article>
 
         <!--Boite pour la mise à jour V.Pre-release 20-->
-        <div class="Div_BoiteEncadrantMiseAJour">
-            <!--Nom de la mise à jour-->
-            <p class="P_TitreDerniereMiseAJour">V.Pre-release 20</p>
+        <article class="Art_30_prc">
 
-            <!--Informations sur la mise à jour-->
-            <div class="Div_BoiteContenuDerniereMiseAJour">
+            <!--Boite pour le titre de la prochaine mise à jour-->
+            <div class="Div_BoiteTitreArticle">
 
-                <p>Date aproximative : XX.[MOIS].XXXX</p>
-                <p>Fonctionnalités ajoutées</p>
-                <p>Plateforme(s) supportée(s) : </p>
-                <p>Commentaire du développeur : hehe</p>
+                <p class="P_TitreArticle">Dernière mise à jour</p>
 
             </div>
-        </div>
+
+            <!--Mise à jour V.Pre-release 19-->
+            <article class="Div_BoiteArticleFullPage">
+                <!--Nom de la mise à jour-->
+                <p class="P_TitreMiseAJour">V.Pre-release 19</p>
+
+                <!--Informations sur la mise à jour-->
+                <div class="Div_BoiteContenuMiseAJour">
+
+                    <p class="P_TitreListeMiseAJour">Date de sortie :</p>
+                    <p>11.12.2022</p>
+                    <p class="P_TitreListeMiseAJour ">Fonctionnalités ajoutées : </p>
+
+                    <!--Liste des éléments rajoutés à la mise à jour-->
+                    <ul>
+                        <li>Rajout de l'interface de management de l'armoire de serveur</li>
+                        <li>Rajout des supports de câbles au plafond de la salle de serveur</li>
+                        <li>Rajout des sons de démarrage / mise hors tension du serveur</li>
+                        <li>Création de 2 autres types de messages pour la fenêtre d'évènements</li>
+
+                    </ul>
+
+                    <p class="P_TitreListeMiseAJour ">Bugs résolus : </p>
+
+                    <!--Liste des bugs résolus-->
+                    <ul>
+                        <li>Résolution de l'interface du rack de serveur qui ne pouvait pas se supprimer avec le bouton
+                        </li>
+                        <li>Suppretion du trait de débuggage sur android quand on clique quelquepart</li>
+
+                    </ul>
+
+                    <p>Plateforme(s) supportée(s) : <span class="Txt_Android">Android</span>
+                        / <span class="Txt_Windows">Windows 8 / 10</span></p>
+                    <p class="P_TitreListeMiseAJour">Commentaire du développeur :</p>
+                    <p>C'est une mise à jour majeure car elle contient beaucoup d'élément</p>
+
+                </div>
+
+            </article>
+
+
+
 
 
     </div>
@@ -102,7 +139,7 @@
 
 
     <!--Boite de l'article pourquoi ce jeu?-->
-    <div class="Div_BoiteEncadrantArticle">
+    <article>
 
         <!--Division du titre de l'article-->
         <div class="Div_BoiteTitreArticle">
@@ -115,52 +152,130 @@
         <!--Tableau des mises à jour en flex (je sais, je sais...)-->
         <div class="Div_TabeauMiseAJour">
 
-
-
-            <!--Mise à jour V.Pre-release 19-->
-            <div class="Div_BoiteEncadrantArticle">
-                <!--Nom de la mise à jour-->
-                <p class="P_TitreMiseAJour">V.Pre-release 19</p>
-
-                <!--Informations sur la mise à jour-->
-                <div class="Div_BoiteContenuMiseAJour">
-
-                    <p>Date aproximative : XX.[MOIS].XXXX</p>
-                    <p>Fonctionnalités ajoutées</p>
-                    <p>Plateforme(s) supportée(s) : </p>
-                    <p>Commentaire du développeur : hehe</p>
-
-                </div>
-            </div>
-
             <!--Mise à jour V.Pre-release 18-->
-            <div class="Div_BoiteEncadrantArticle">
+            <article class="Art_MiseAJour">
                 <!--Nom de la mise à jour-->
                 <p class="P_TitreMiseAJour">V.Pre-release 18</p>
 
                 <!--Informations sur la mise à jour-->
                 <div class="Div_BoiteContenuMiseAJour">
 
-                    <p>Date aproximative : XX.[MOIS].XXXX</p>
-                    <p>Fonctionnalités ajoutées</p>
-                    <p>Plateforme(s) supportée(s) : </p>
-                    <p>Commentaire du développeur : hehe</p>
+                    <p class="P_TitreListeMiseAJour">Date de sortie :</p>
+                    <p>21.10.2022</p>
+                    <p class="P_TitreListeMiseAJour ">Fonctionnalités ajoutées : </p>
+
+                    <!--Liste des éléments rajoutés à la mise à jour-->
+                    <ul>
+                        <li>Rajout de l'interface de paramètrage du serveur pour le démarrer / éteindre</li>
+                        <li>Paufinement de l'interface d'évènement en haut à gauche de l'écran</li>
+                        <li>Rajout des évènement d'avertissement quand le joueur fait une action fausse</li>
+
+                    </ul>
+
+                    <p class="P_TitreListeMiseAJour ">Bugs résolus : </p>
+
+
+
+                    <!--Liste des bugs résolus-->
+                    <ul>
+                        <li>Réduction du nombre de polygones du rack de serveur pour des gains de FPS</li>
+                        <li>Résolution du placement d'un objet 3D dans le monde qui se superposait avec un autre</li>
+
+                    </ul>
+
+                    <p>Plateforme(s) supportée(s) : <span class="Txt_Android">Android</span></p>
+                    <p class="P_TitreListeMiseAJour">Commentaire du développeur :</p>
+                    <p>Cette mise à jour a été faite à but de développement sur android ; c'est pour cela qu'elle n'est
+                        disponible que sur Android et non sur Windows 10 / 8.</p>
 
                 </div>
-            </div>
+            </article>
+
+            <!--Mise à jour V.Pre-release 17-->
+            <article class="Art_MiseAJour">
+                <!--Nom de la mise à jour-->
+                <p class="P_TitreMiseAJour">V.Pre-release 17</p>
+
+                <!--Informations sur la mise à jour-->
+                <div class="Div_BoiteContenuMiseAJour">
+
+                    <p class="P_TitreListeMiseAJour">Date de sortie :</p>
+                    <p>21.10.2022</p>
+                    <p class="P_TitreListeMiseAJour ">Fonctionnalités ajoutées : </p>
+
+                    <!--Liste des éléments rajoutés à la mise à jour-->
+                    <ul>
+                        <li>Rajout d'une interface indiquant l'objet regardé actuellement</li>
+                        <li>Rajout d'une section pour les évènements en haut à gauche de l'écran</li>
+
+                    </ul>
+
+                    <p class="P_TitreListeMiseAJour ">Bugs résolus : </p>
 
 
 
+                    <!--Liste des bugs résolus-->
+                    <ul>
+                        <li>Résolution du trait qui s'affiche sur l'écran quand on presse "e"</li>
+                        <li>Retrait de l'interface de débuggage de placement des rack dans les armoires car tout
+                            fonctionne bien</li>
+
+                    </ul>
+
+                    <p>Plateforme(s) supportée(s) : <span class="Txt_Android">Android</span>
+                        / <span class="Txt_Windows">Windows 8 / 10</span></p>
+                    <p class="P_TitreListeMiseAJour">Commentaire du développeur :</p>
+                    <p>C'est une mise à jour majeure car l'aspec gameplay est touché grâce aux nouvelles interfaces et
+                        aux design du jeu. C'est une mise à jour qui a pris du temps à être faite.</p>
+
+                </div>
+            </article>
+
+            <!--Mise à jour V.Pre-release 16-->
+            <article class="Art_MiseAJour">
+                <!--Nom de la mise à jour-->
+                <p class="P_TitreMiseAJour">V.Pre-release 16</p>
+
+                <!--Informations sur la mise à jour-->
+                <div class="Div_BoiteContenuMiseAJour">
+
+                    <p class="P_TitreListeMiseAJour">Date de sortie :</p>
+                    <p>09.10.2022</p>
+                    <p class="P_TitreListeMiseAJour">Fonctionnalités ajoutées : </p>
+
+                    <!--Liste des éléments rajoutés à la mise à jour-->
+                    <ul>
+                        <li>Rajout d'une interface de débuggage pour le placement des rack de serveur</li>
+                        <li>Rajout de la possibilité de placer les rack dans les armoires de serveur</li>
+                        <li>Rajout des sons pour les disques durs quand ils sont en mode actif</li>
+
+                    </ul>
+
+                    <p class="P_TitreListeMiseAJour">Bugs résolus : </p>
+
+
+
+                    <!--Liste des bugs résolus-->
+                    <ul>
+                        <li>Problème avec les références lorsque le joueur prend un rack dans ses mains</li>
+                        <li>Résolution du problème avec l'animation sur l'interface de paramètres graphique dans le
+                            menu
+                            principal du jeu</li>
+
+                    </ul>
+
+                    <p>Plateforme(s) supportée(s) : <span class="Txt_Android">Android</span>
+                        / <span class="Txt_Windows">Windows 8 / 10</span></p>
+                    <p class="P_TitreListeMiseAJour">Commentaire du développeur :</p>
+                    <p>Cette mise à jour a été un grand changement dans le jeu car la
+                        possibilité de placer les rack dans les armoires a été complexe et longue à mettre en place.
+                        Cela rajoute également de la vie au jeu, ce que j'aime beaucoup.</p>
+
+                </div>
+            </article>
 
         </div>
-    </div>
-
-
-
-
-
-
-
+    </article>
 
 
     <!--Séparateur de la taille du pied de page-->

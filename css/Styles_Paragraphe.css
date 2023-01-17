@@ -37,24 +37,42 @@
 .Txt_Android {
         /*Texte*/
         color: #0a802b;
+        background-color: rgb(55, 18, 85);
+
+        /*Border*/
+        border-radius: 5px;
+
+        /*Padding*/
+        padding: 5px;
+
+        /*Margin*/
+        margin: 2px;
 
 }
 
 .Txt_Windows {
         /*Texte*/
-        color: #381abf;
+        color: #1a7dbf;
+        background-color: rgb(55, 18, 85);
+
+        /*Border*/
+        border-radius: 5px;
+
+        /*Padding*/
+        padding: 5px;
+
+        /*Margin*/
+        margin: 2px;
 }
 
 p {
         /*Texte*/
         font-size: 16px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.P_TitreSectionListe {
-        /*Texte*/
-        text-decoration: underline;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /*Margin*/
+        margin-left: 10px;
+        margin-right: 10px;
 }
 
 li {
@@ -96,7 +114,7 @@ li {
         font-size: 16px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: underline;
-        color: rgb(246, 0, 189);
+        color: rgb(107, 0, 246);
 }
 
 .P_TitreMiseAJour {
@@ -141,4 +159,20 @@ li {
         border-radius: 10px;
 
 
+}
+
+.P_TitreListeMiseAJour {
+        /*Color*/
+        background-color: #171f5d;
+
+        /*Border*/
+        border-radius: 5px;
+
+        /*Padding*/
+        padding: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        /*Size*/
+        width: fit-content;
 }
