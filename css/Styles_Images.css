@@ -8,3 +8,58 @@
         width: 64px;
         height: 64px,
 }
+
+.Img_SideImage {
+        /*Taille*/
+        width: 200px;
+        height: 200px;
+
+}
+
+.Img_InArticleCentered {
+
+        /*Taille*/
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+
+        /*Border*/
+        border-radius: 10px;
+
+        /*Margin*/
+        margin-left: auto;
+        margin-right: auto;
+
+        /*Display*/
+        display: block;
+}
+
+.Img_InArticleLeft {
+
+        /*Taille*/
+        width: 100%;
+        height: auto;
+        max-width: 850px;
+
+        /*Border*/
+        border-radius: 10px;
+
+        /*Margin*/
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+.Img_InArticleLeftSmall {
+
+        /*Taille*/
+        width: 100%;
+        height: auto;
+        max-width: 512px;
+
+        /*Border*/
+        border-radius: 10px;
+
+        /*Margin*/
+        margin-left: 10px;
+        margin-right: 10px;
+}

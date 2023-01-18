@@ -14,22 +14,6 @@
     align-content: center;
 }
 
-.Div_ContenuArticle {
-    /*Colors*/
-    background-color: #444444;
-
-    /*Padding*/
-    padding: 10px;
-
-    /*Margin*/
-    margin: 10px;
-
-    /*Border*/
-    border-width: 1px;
-    border-color: #000000;
-    border-radius: 10px;
-}
-
 .Div_BoiteTexte {
     /*Colors*/
     background-color: #171f5d;
@@ -149,6 +133,7 @@
     /*Flex*/
     display: flex;
     flex-wrap: nowrap;
+    align-items: flex-start;
 }
 
 .Div_TelechargerAndroid {
@@ -177,4 +162,14 @@
 
     /*Border*/
     border-radius: 10px;
+}
+
+.Art_SectionArticleFullPage {
+    /*Couleurs*/
+    background-color: #0d0f1e;
+
+    /*Flex*/
+    flex: auto;
+    max-width: 50%;
+
 }
