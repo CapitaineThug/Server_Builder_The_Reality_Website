@@ -136,6 +136,37 @@
     align-items: flex-start;
 }
 
+@media screen and (max-width:600px) {
+    .Div_SimpleFlex {
+        /*Flex*/
+        display: contents;
+        width:fit-content;
+    }
+
+    .Div_BoitePrincipale {
+
+        /*Flex*/
+        flex-direction: column;
+    }
+
+    .Div_TableauMiseAJour {
+        /*Flex*/
+        display: block;
+    }
+
+    .Div_TableauTelechargement {
+        /*Flex*/
+        display: block;
+    }
+
+    .Div_BoiteContenuMiseAJour {
+        /*Position*/
+        width: fit-content;
+    }
+
+
+}
+
 .Div_TelechargerAndroid {
     /*Colors*/
     background-color: #013220;
