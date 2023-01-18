@@ -21,7 +21,7 @@
         /*Taille*/
         width: 100%;
         height: auto;
-        max-width: 1024px;
+        max-width: 850px;
 
         /*Border*/
         border-radius: 10px;
@@ -45,8 +45,8 @@
         border-radius: 10px;
 
         /*Margin*/
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .Img_InArticleLeftSmall {
@@ -60,6 +60,6 @@
         border-radius: 10px;
 
         /*Margin*/
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
 }

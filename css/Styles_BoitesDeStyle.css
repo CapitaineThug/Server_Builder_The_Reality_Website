@@ -164,12 +164,22 @@
     border-radius: 10px;
 }
 
-.Art_SectionArticleFullPage {
+.Art_SectionSecondeArticleFullPage {
     /*Couleurs*/
     background-color: #0d0f1e;
 
     /*Flex*/
     flex: auto;
     max-width: 50%;
+
+}
+
+.Art_SectionPremiereArticleFullPage {
+    /*Couleurs*/
+    background-color: #101a28;
+
+    /*Flex*/
+    flex: auto;
+    max-width: 55%;
 
 }
