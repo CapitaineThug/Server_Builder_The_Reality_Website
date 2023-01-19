@@ -30,6 +30,7 @@
 /*Bouton de navigation pour l'image*/
 .Bt_ImageNavigation {
         background-color: transparent;
+        border-width: 0px;
 
 }
 
@@ -37,6 +38,7 @@
         transform: scale(1.05);
 }
 
+/*Bouton de téléchargement de version du jeu avec l'animation*/
 .Bt_Telecharger {
         /*Text*/
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

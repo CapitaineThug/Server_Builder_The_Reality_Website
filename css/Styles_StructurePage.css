@@ -5,10 +5,12 @@ body {
         color: white;
 }
 
+/*Séparateur d'entête pour que le contenu ne passe pas en dessous de l'entête par défaut*/
 .Separateur {
         margin-top: 75px;
 }
 
+/*Séparateur du pied de page pour que le contenu ne passe pas en dessous du pied de page par défaut*/
 .SeparateurPied {
         margin-top: 75px;
 }
@@ -57,6 +59,68 @@ footer {
         width: 100%;
 }
 
+.Art_70_prc {
+
+        /*Flex*/
+        flex: 70%;
+
+        /*Position*/
+        height: 100%;
+}
+
+.Art_30_prc {
+
+        /*Flex*/
+        flex: 30%;
+
+        /*Position*/
+        height: 100%;
+}
+
+/*Article entourant de base tous les articles (donc le titre et le contenu), il est fonçé donc peu visible*/
+article {
+        /*Couleurs*/
+        background-color: #0d0f1e;
+        color: white;
+
+        /*Bordures*/
+        border-width: 0px;
+        border-radius: 10px;
+
+        /*Padding*/
+        padding: 5px;
+        margin: 10px;
+}
+
+/*Media Querry pour android*/
+@media screen and (max-width:600px) {
+        .Nav_MenuEnTete {
+                /*Flex*/
+                flex-direction: line;
+                flex-wrap: wrap;
+
+                /*Position*/
+                position: absolute;
+        }
+
+        .Separateur {
+                margin-top: 400px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+/*=============================================================================*/
+/*Titres différentes des pages*/
+/*=============================================================================*/
+
 .Div_TitrePageMenu {
         /*Couleurs*/
         background-color: rgba(5, 8, 70, 0.541);
@@ -97,10 +161,10 @@ footer {
         min-height: 100%;
 }
 
-.Div_TitreMiseAJour {
+.Div_TitreArchives {
         /*Couleurs*/
         background-color: rgba(5, 8, 70, 0.541);
-        background-image: url("../img/Prochaine_Mise_A_Jour.jpg");
+        background-image: url("../img/File_Archive.webp");
         color: white;
 
         /*Bordures*/
@@ -183,74 +247,4 @@ footer {
         background-position-y: center;
         background-size: 100%;
         background-repeat: repeat;
-}
-
-.Art_70_prc {
-        /*Couleurs*/
-        background-color: #0d0f1e;
-        color: white;
-
-        /*Bordures*/
-        border-width: 0px;
-        border-radius: 10px;
-
-        /*Padding*/
-        padding: 5px;
-        margin: 10px;
-
-        /*Flex*/
-        flex: 70%;
-
-        /*Position*/
-        height: 100%;
-}
-
-.Art_30_prc {
-        /*Couleurs*/
-        background-color: #0d0f1e;
-        color: white;
-
-        /*Bordures*/
-        border-width: 0px;
-        border-radius: 10px;
-
-        /*Padding*/
-        padding: 5px;
-        margin: 10px;
-
-        /*Flex*/
-        flex: 30%;
-
-        /*Position*/
-        height: 100%;
-}
-
-article {
-        /*Couleurs*/
-        background-color: #0d0f1e;
-        color: white;
-
-        /*Bordures*/
-        border-width: 0px;
-        border-radius: 10px;
-
-        /*Padding*/
-        padding: 5px;
-        margin: 10px;
-}
-
-/*Media Querry pour android*/
-@media screen and (max-width:600px) {
-        .Nav_MenuEnTete {
-                /*Flex*/
-                flex-direction: line;
-                flex-wrap: wrap;
-
-                /*Position*/
-                position: absolute;
-        }
-
-        .Separateur {
-                margin-top: 400px;
-        }
 }

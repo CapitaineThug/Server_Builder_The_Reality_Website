@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="css/Styles_Images.css" />
     <link rel="stylesheet" href="css/Styles_Paragraphe.css" />
     <link rel="stylesheet" href="css/Styles_StructurePage.css" />
+    <script src="js/script.js"></script>
 
 </head>
 
-<body>
+<body onload="enableDateTimeRefresh()">
     <!--En-tête de la page WEB-->
     <header>
         <!--Menu de navigation-->
@@ -45,7 +46,7 @@
     <div class="Separateur"></div>
 
     <!--Titre du dite WEB avec l'image en arrière-plan-->
-    <div class="Div_TitreMiseAJour">
+    <div class="Div_TitreArchives">
         <p class="P_TitrePage">Server Builder - Archives</p>
 
     </div>
@@ -55,28 +56,49 @@
 
         <!--Boite pour l'article de la définition-->
         <article class="Art_70_prc">
+            <div>
+                <!--Boite pour le titre de la définition de planning de mise à jour-->
+                <div class="Div_BoiteTitreArticle">
 
+                    <p class="P_TitreArticle">Archives</p>
 
-            <!--Boite pour le titre de la définition de planning de mise à jour-->
-            <div class="Div_BoiteTitreArticle">
+                </div>
 
-                <p class="P_TitreArticle">Archives</p>
+                <!--Article sur la définition de mise à jour pour moi-->
+                <div class="Div_BoiteArticleFullPage">
 
+                    <p class="P_CorpArticle">Le jeu est en perpétuel développement, donc des mise à jour sont faites et
+                        partagées sur ce site.</p>
+                    <p class="P_CorpArticle">J'aimerai archiver de façon permanante ce qui change à chaque nouvelle mise
+                        à
+                        jour car je trouve important de se souvenir de ce qu'on a fait et de pouvoir se dire: "c'est
+                        vrai
+                        que le jeu a beaucoup changé !!".</p>
+
+                </div>
             </div>
 
-            <!--Article sur la définition de mise à jour pour moi-->
-            <div class="Div_BoiteArticleFullPage">
+            <div>
+                <!--Boite pour la date et l'heure-->
+                <div class="Div_BoiteTitreArticle">
 
-                <p class="P_CorpArticle">Le jeu est en perpétuel développement, donc des mise à jour sont faites et
-                    partagées sur ce site.</p>
-                <p class="P_CorpArticle">J'aimerai archiver de façon permanante ce qui change à chaque nouvelle mise à
-                    jour car je trouve important de se souvenir de ce qu'on a fait et de pouvoir se dire: "c'est vrai
-                    que le jeu a beaucoup changé !!".</p>
+                    <p class="P_TitreArticle">Date et Heure actuelle</p>
 
+                </div>
+
+                <!--Article sur la définition de mise à jour pour moi-->
+                <div class="Div_BoiteArticleFullPage">
+
+                    <p class="P_TitreMiseAJour" id="clock"></p>
+
+                </div>
             </div>
+
+
+
         </article>
 
-        <!--Boite pour la mise à jour V.Pre-release 20-->
+        <!--Boite pour la mise à jour V.Pre-release 29-->
         <article class="Art_30_prc">
 
             <!--Boite pour le titre de la prochaine mise à jour-->
@@ -103,7 +125,8 @@
                         <li>Rajout de l'interface de management de l'armoire de serveur</li>
                         <li>Rajout des supports de câbles au plafond de la salle de serveur</li>
                         <li>Rajout des sons de démarrage / mise hors tension du serveur</li>
-                        <li>Création de 2 autres types de messages pour la fenêtre d'évènements (succès et erreur)</li>
+                        <li>Création de 2 autres types de messages pour la fenêtre d'évènements (succès et erreur)
+                        </li>
 
                     </ul>
 
@@ -111,7 +134,8 @@
 
                     <!--Liste des bugs résolus-->
                     <ul>
-                        <li>Résolution de l'interface du rack de serveur qui ne pouvait pas se supprimer avec le bouton
+                        <li>Résolution de l'interface du rack de serveur qui ne pouvait pas se supprimer avec le
+                            bouton
                         </li>
                         <li>Suppretion du trait de débuggage sur android quand on clique quelquepart</li>
 

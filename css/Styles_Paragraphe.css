@@ -69,23 +69,21 @@ p {
         /*Texte*/
         font-size: 16px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
 
         /*Margin*/
         margin-left: 10px;
         margin-right: 10px;
 }
 
+/*élément de liste*/
 li {
         /*Texte*/
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Corp de bien l'article*/
 .P_CorpArticle {
-        /*Texte*/
-        font-size: 16px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: left;
-
         /*Margin*/
         margin-top: 35px;
         margin-bottom: 35px;
@@ -93,6 +91,7 @@ li {
         margin-right: 10px;
 }
 
+/*Petite information en bas de page que personne ne lis...*/
 .P_PostIt {
         /*Texte*/
         font-size: 9px;
@@ -104,19 +103,13 @@ li {
 
 }
 
+/*élément de liste invisible pour être conforme aux normes*/
 .Li_CanevasSousListe {
         /*Display*/
         list-style-type: none;
 }
 
-.Li_TitreSectionListe {
-        /*Texte*/
-        font-size: 16px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-decoration: underline;
-        color: rgb(107, 0, 246);
-}
-
+/*Titre des mise à jour encadré de violet en background*/
 .P_TitreMiseAJour {
         /*Texte*/
         font-size: 16px;
@@ -141,28 +134,7 @@ li {
 
 }
 
-.P_TitreDerniereMiseAJour {
-        /*Texte*/
-        font-size: 16px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-
-        /*Color*/
-        background-color: #0c253f;
-
-        /*Margin*/
-        margin: 5px;
-
-        /*Padding*/
-        padding-top: 5px;
-        padding-bottom: 5px;
-
-        /*Border*/
-        border-radius: 10px;
-
-
-}
-
+/*Titre indiquant de quoi parle la section avec un arrière-plan bleu*/
 .P_TitreListeMiseAJour {
         /*Color*/
         background-color: #171f5d;
@@ -179,6 +151,7 @@ li {
         width: fit-content;
 }
 
+/*Paragraphe pour indiquer la taille du fichier téléchargé*/
 .P_TailleFichier {
         /*Color*/
         background-color: #5d172e;
@@ -199,6 +172,3 @@ li {
         width: fit-content;
 
 }
-
-/*Media Querry pour android*/
-@media screen and (max-width:600px) {}

@@ -1,4 +1,4 @@
-/*Image dans la navigation*/
+/*Image dans la barre navigation*/
 .Img_ImageNavigation {
 
         /*Flex*/
@@ -9,13 +9,7 @@
         height: 64px,
 }
 
-.Img_SideImage {
-        /*Taille*/
-        width: 200px;
-        height: 200px;
-
-}
-
+/*Image centrée full size*/
 .Img_InArticleCentered {
 
         /*Taille*/
@@ -34,40 +28,10 @@
         display: block;
 }
 
-.Img_InArticleLeft {
-
-        /*Taille*/
-        width: 100%;
-        height: auto;
-        max-width: 850px;
-
-        /*Border*/
-        border-radius: 10px;
-
-        /*Margin*/
-        margin-left: auto;
-        margin-right: auto;
-}
-
 .Img_Logo {
         /*Taille*/
         width: 100%;
 
-}
-
-.Img_InArticleLeftSmall {
-
-        /*Taille*/
-        width: 100%;
-        height: auto;
-        max-width: 512px;
-
-        /*Border*/
-        border-radius: 10px;
-
-        /*Margin*/
-        margin-left: auto;
-        margin-right: auto;
 }
 
 /*Media Querry pour android*/
