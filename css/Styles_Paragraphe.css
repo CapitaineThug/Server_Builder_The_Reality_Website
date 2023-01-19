@@ -26,12 +26,38 @@
         padding-bottom: 16px;
 }
 
-.P_TitreArticle {
+h2 {
         /*Texte*/
         text-align: left;
         font-size: 25px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        /*Margin*/
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+h3 {
+        /*Texte*/
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+
+        /*Color*/
+        background-color: #160c3f;
+
+        /*Margin*/
+        margin: 5px;
+
+        /*Padding*/
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        /*Border*/
+        border-radius: 10px;
 }
 
 .Txt_Android {
@@ -107,31 +133,6 @@ li {
 .Li_CanevasSousListe {
         /*Display*/
         list-style-type: none;
-}
-
-/*Titre des mise à jour encadré de violet en background*/
-.P_TitreMiseAJour {
-        /*Texte*/
-        font-size: 16px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-
-        /*Color*/
-        background-color: #160c3f;
-
-        /*Margin*/
-        margin: 5px;
-
-        /*Padding*/
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-
-        /*Border*/
-        border-radius: 10px;
-
-
 }
 
 /*Titre indiquant de quoi parle la section avec un arrière-plan bleu*/

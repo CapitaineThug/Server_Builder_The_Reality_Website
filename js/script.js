@@ -13,7 +13,7 @@ function displayDateTime() {
 
     //Variables pour les différentes parties d'une date
     let annee = date.getFullYear();
-    let mois = date.getMonth();
+    let mois = date.getMonth() + 1;
     let jour = date.getDate();
     let heure = date.getHours();
     let minute = date.getMinutes();
