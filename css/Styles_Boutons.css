@@ -6,6 +6,7 @@
 
         /*Bordures*/
         border-width: 0px;
+        border-color: transparent;
         border-radius: 10px;
 
         /*Padding*/
@@ -19,25 +20,6 @@
         /*Flex*/
         flex: auto;
         align-self: center;
-}
-
-@media screen and (max-width:600px) {
-        .Bt_BoutonNavigation {
-                width: 100%;
-
-                /*Padding*/
-                padding: 20px;
-
-                /*Margin*/
-                margin: 20px;
-                margin-top: 4px;
-                margin-bottom: 4px;
-        }
-
-        .Bt_BoutonNavigation:hover {
-                background-color: #171f5dbc;
-                transform: scale(1.05);
-        }
 }
 
 .Bt_BoutonNavigation:hover {
@@ -102,4 +84,19 @@
 
         /*Animation*/
         transition: 500ms;
+}
+
+
+@media screen and (max-width:600px) {
+        .Bt_BoutonNavigation {
+                width: 100%;
+
+                /*Padding*/
+                padding: 20px;
+
+                /*Margin*/
+                margin: 20px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+        }
 }

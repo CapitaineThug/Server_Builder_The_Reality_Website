@@ -34,28 +34,6 @@ body {
         width: 100%;
 }
 
-@media screen and (max-width:600px) {
-        .Nav_MenuEnTete {
-                /*Flex*/
-                flex-direction: line;
-                flex-wrap:wrap;
-
-                /*Position*/
-                position:absolute;
-        }
-
-        .Separateur {
-                margin-top: 400px;
-        }
-
-        .Art_MiseAJour {
-                /*Taille*/
-                width:100%;
-                display:contents;
-
-        }
-}
-
 /*pied de page de toutes les pages*/
 footer {
         /*Couleurs*/
@@ -261,7 +239,18 @@ article {
         margin: 10px;
 }
 
-.Art_MiseAJour {
-        /*Taille*/
-        max-width: 40%;
+/*Media Querry pour android*/
+@media screen and (max-width:600px) {
+        .Nav_MenuEnTete {
+                /*Flex*/
+                flex-direction: line;
+                flex-wrap: wrap;
+
+                /*Position*/
+                position: absolute;
+        }
+
+        .Separateur {
+                margin-top: 400px;
+        }
 }

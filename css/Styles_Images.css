@@ -49,6 +49,12 @@
         margin-right: auto;
 }
 
+.Img_Logo {
+        /*Taille*/
+        width: 100%;
+
+}
+
 .Img_InArticleLeftSmall {
 
         /*Taille*/
@@ -62,4 +68,18 @@
         /*Margin*/
         margin-left: auto;
         margin-right: auto;
+}
+
+/*Media Querry pour android*/
+@media screen and (max-width:600px) {
+        .Img_Logo {
+                /*Taille*/
+                width: 50%;
+
+                /*Margin*/
+                margin-left: auto;
+                margin-right: auto;
+
+                display: block;
+        }
 }

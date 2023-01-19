@@ -199,3 +199,6 @@ li {
         width: fit-content;
 
 }
+
+/*Media Querry pour android*/
+@media screen and (max-width:600px) {}
