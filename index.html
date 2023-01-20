@@ -19,12 +19,13 @@
         <link rel="stylesheet" href="css/Styles_Images.css">
         <link rel="stylesheet" href="css/Styles_Paragraphe.css">
         <link rel="stylesheet" href="css/Styles_StructurePage.css">
+        <script src="js/script.js"></script>
 
 </head>
 
 <!--Corp du site WEB-->
 
-<body>
+<body onload="setDayMessage()">
         <!--En-tête de la page WEB-->
         <header>
                 <!--Menu de navigation-->
@@ -59,41 +60,59 @@
 
         <!--Boite d'information principale pour informations globales et notes de mise à jour-->
         <div class="Div_SimpleFlex">
+                <div>
+                        <!--Division pour les informations globales-->
+                        <article class="Art_70_prc">
+                                <!--Division du titre de l'article-->
+                                <div class="Div_BoiteTitreArticle">
 
-                <!--Division pour les informations globales-->
-                <article class="Art_70_prc">
-                        <!--Division du titre de l'article-->
-                        <div class="Div_BoiteTitreArticle">
+                                        <!--Titre de l'article Informations globales-->
+                                        <h2>Informations globales</h2>
 
-                                <!--Titre de l'article Informations globales-->
-                                <h2>Informations globales</h2>
-
-                        </div>
-
-                        <!--Division pour le contenu de l'article de l'information globale-->
-                        <div class="Div_BoiteArticleFullPage">
-                                <!--Article en personne :)-->
-                                <p>
-                                        Ce site web va parler de la création du jeu vidéo "Server Builder", un jeu qui a
-                                        été créé par Nicolas Schmid sur Unreal Engine 5. Quelques informations:
-                                </p>
-                                <div class="Div_BoiteTexteJustifieContenu">
-                                        <!--Liste pour les informations globales-->
-                                        <ul>
-                                                <li>Date de création : 25.06.2022</li>
-                                                <li>Editeur : Unreal engine 5.1.0</li>
-                                                <li>Plateforme supportée acutuellement: <span
-                                                                class="Txt_Android">Android</span>
-                                                        / <span class="Txt_Windows">Windows 8 / 10</span></li>
-                                                <li>Source des modèles 3D : Nicolas Schmid</li>
-                                                <li>Source des sons : Nicolas Schmid</li>
-                                                <li>Disponible sur <a href="https://itch.io/">Itch.io</a></li>
-                                        </ul>
                                 </div>
 
+                                <!--Division pour le contenu de l'article de l'information globale-->
+                                <div class="Div_BoiteArticleFullPage">
+                                        <!--Article en personne :)-->
+                                        <p>
+                                                Ce site web va parler de la création du jeu vidéo "Server Builder", un
+                                                jeu qui a
+                                                été créé par Nicolas Schmid sur Unreal Engine 5. Quelques informations:
+                                        </p>
+                                        <div class="Div_BoiteTexteJustifieContenu">
+                                                <!--Liste pour les informations globales-->
+                                                <ul>
+                                                        <li>Date de création : 25.06.2022</li>
+                                                        <li>Editeur : Unreal engine 5.1.0</li>
+                                                        <li>Plateforme supportée acutuellement: <span
+                                                                        class="Txt_Android">Android</span>
+                                                                / <span class="Txt_Windows">Windows 8 / 10</span></li>
+                                                        <li>Source des modèles 3D : Nicolas Schmid</li>
+                                                        <li>Source des sons : Nicolas Schmid</li>
+                                                        <li>Disponible sur <a href="https://itch.io/">Itch.io</a></li>
+                                                </ul>
+                                        </div>
 
-                        </div>
-                </article>
+
+                                </div>
+                        </article>
+                        <!--message du jour-->
+                        <article class="Art_70_prc">
+                                <!--Division du titre de l'article-->
+                                <div class="Div_BoiteTitreArticle">
+
+                                        <!--Titre de l'article Informations globales-->
+                                        <h2>Message random</h2>
+
+                                </div>
+                                <!--Div pour le message du jour-->
+                                <div class="Div_BoiteArticleFullPage">
+                                        <h3 id="dayMessage">Le message du jour...</h3>
+
+                                </div>
+                        </article>
+                </div>
+
 
                 <!--Division pour les notes de mise à jour-->
                 <article class="Art_30_prc">
