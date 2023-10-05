@@ -24,5 +24,5 @@ Le public cible sera des personnes plutot situées dans les 16-20 ans qui aiment
 
 ## Mes commentaires
 
-C'est de la balle !!
+Ce site web a entièrement été codé à la main par Nicolas Schmid et a été fait avec le plus grand amour possible !
 
